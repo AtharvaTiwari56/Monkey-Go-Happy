@@ -107,6 +107,9 @@ function draw() {
         bananaGroup.destroyEach();
         stoneGroup.destroyEach();
         monkey.velocityY=0;
+        score = 0;
+        monkey.y = 315;
+        text("Game Over", 120, 180);
           
         }
      
